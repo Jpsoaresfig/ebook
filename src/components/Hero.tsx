@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
         </p>
 
         <a
-          href="#download"
+          href="https://pay.kiwify.com.br/LqqZdyP"
           className="inline-block bg-yellow-400 text-gray-900 font-bold px-10 py-4 rounded-full shadow-lg hover:bg-yellow-300 transition-all transform hover:scale-105 hover:shadow-2xl animate-pulse"
         >
           SIM! EU QUERO COMEÇAR A FATURAR AGORA
