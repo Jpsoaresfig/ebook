@@ -3,9 +3,48 @@ import React from "react";
 const Hero: React.FC = () => {
   return (
     <section className="bg-gradient-to-br from-indigo-900 via-blue-800 to-indigo-700 text-white py-28 px-6 text-center relative overflow-hidden">
+      {/* Background blobs */}
       <div className="absolute -top-20 -left-20 w-96 h-96 bg-blue-400 opacity-20 rounded-full filter blur-3xl animate-pulse"></div>
       <div className="absolute -bottom-20 -right-20 w-96 h-96 bg-indigo-400 opacity-20 rounded-full filter blur-3xl animate-pulse"></div>
 
+      
+    <div className="absolute top-2 left-2 z-10">
+  <div className="text-6xl font-black text-green-400 drop-shadow-xl animate-bounce">
+    <span className="transform rotate-12 scale-110">$</span>
+  </div>
+</div>
+
+<div className="absolute top-1/2 left-2 transform -translate-y-1/2 z-10">
+  <div className="text-6xl font-black text-green-400 drop-shadow-xl animate-bounce">
+    <span className="transform rotate-12 scale-110">$</span>
+  </div>
+</div>
+
+<div className="absolute bottom-2 left-2 z-10">
+  <div className="text-6xl font-black text-green-400 drop-shadow-xl animate-bounce">
+    <span className="transform rotate-12 scale-110">$</span>
+  </div>
+</div>
+
+<div className="absolute top-2 right-2 z-10">
+  <div className="text-6xl font-black text-green-400 drop-shadow-xl animate-bounce">
+    <span className="transform -rotate-12 scale-110">$</span>
+  </div>
+</div>
+
+<div className="absolute top-1/2 right-2 transform -translate-y-1/2 z-10">
+  <div className="text-6xl font-black text-green-400 drop-shadow-xl animate-bounce">
+    <span className="transform -rotate-12 scale-110">$</span>
+  </div>
+</div>
+
+<div className="absolute bottom-2 right-2 z-10">
+  <div className="text-6xl font-black text-green-400 drop-shadow-xl animate-bounce">
+    <span className="transform -rotate-12 scale-110">$</span>
+  </div>
+</div>
+
+      
       <div className="max-w-3xl mx-auto relative z-10">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
           <span className="text-yellow-400">O Guia Nº 1</span> Para Quem Quer{" "}
